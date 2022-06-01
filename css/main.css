@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+.contentheromobile {
+  display: none;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+  background-color: #22242b;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: coral;
+  border-radius: 10px;
+}
+
+header {
+  color: white;
+}
+
+header .tel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #22242b;
+  padding-right: 5px;
+}
+
+header .tel a {
+  color: white;
+  text-decoration: none;
+}
+
+header .tel img {
+  width: 20px;
+}
+
+header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  background-color: #22242b;
+  font-family: Lobster, Arial;
+}
+
+header .nav a {
+  text-decoration: none;
+  padding: 5px;
+  font-size: 1.5em;
+  color: white;
+}
+
+header .nav a:hover {
+  color: coral;
+}
+
+header .nav ul {
+  list-style: none;
+}
+
+header .nav .logo {
+  display: inline;
+  font-size: 1.8em;
+}
+
+header .nav .logo img {
+  width: 30px;
+}
+
+.contenthero {
+  background-color: #2b2e36;
+  height: 450px;
+}
+
+.hero {
+  display: contents;
+  margin: 0px 100px;
+}
+
+.hero video {
+  margin: 50px 350px;
+}
+
+.contentheromobile {
+  background-image: url("../img/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#section {
+  background-color: #22242b;
+}
+
+#section .contenedor {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 2em;
+  gap: 5px;
+  margin: auto 300px;
+  font-family: Lobster, Arial;
+}
+
+#section .contenedor .items img {
+  width: 150px;
+  border-radius: 10px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#section .contenedor .items img:hover {
+  width: 190px;
+  -webkit-box-shadow: 2px 2px 10px white;
+  box-shadow: 2px 2px 10px white;
+}
+
+#section .itemtext {
+  width: 67%;
+  color: white;
+  text-align: center;
+  background-color: coral;
+}
+
+#section .herotext {
+  color: #fff;
+  padding: 100px 0px;
+  text-align: center;
+  font-family: Lobster, Arial;
+}
+
+.bloques {
+  background-color: #22242b;
+  padding: 100px 0px;
+}
+
+.bloques .bloque1 {
+  padding-top: 50px;
+  text-align: center;
+  margin: auto 100px;
+  font-size: 1.3em;
+  color: white;
+  font-family: Lobster, Arial;
+}
+
+.bloques .bloque1 h2 img {
+  width: 50px;
+}
+
+.bloques .bloque1 h2 {
+  padding-bottom: 10px;
+}
+
+.titleshop {
+  background-color: #2b2e36;
+}
+
+.titleshop .titleitem h2 {
+  text-align: center;
+  padding: 100px 0px;
+  color: white;
+  font-family: Lobster, Arial;
+  font-size: 2em;
+  color: coral;
+}
+
+.titleshop .titleitem h2 img {
+  width: 50px;
+}
+
+.titleshop .itemshop {
+  margin: auto 100px;
+  display: -ms-grid;
+  display: grid;
+  gap: 30px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.titleshop .itemshop .articulo {
+  text-align: center;
+}
+
+.titleshop .itemshop .articulo img {
+  width: 50%;
+  border-radius: 10px;
+}
+
+.titleshop .itemshop .articulo h3 {
+  color: coral;
+  font-family: Lobster, Arial;
+}
+
+.titleshop .itemshop .articulo p {
+  color: coral;
+  font-family: Lobster, Arial;
+  padding-bottom: 5px;
+}
+
+.titleshop .itemshop .articulo button {
+  background-color: coral;
+  width: 80px;
+  height: 30px;
+  border: 1px;
+  border-radius: 5px;
+  color: white;
+  font-family: Lobster, Arial;
+  margin: 10px;
+}
+
+.titleshop .itemshop .articulo button:hover {
+  -webkit-box-shadow: 2px 2px 5px white;
+  box-shadow: 2px 2px 5px white;
+  background-color: #f56733;
+  cursor: pointer;
+}
+
+.titleshop .itemshop .articulo .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.titleshop .itemshop .articulo .price p {
+  color: white;
+}
+
+.gridfooter {
+  font-family: Lobster, Arial;
+  padding: 50px 30px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #22242b;
+  border-top: 1px solid white;
+  font-size: 1em;
+  color: white;
+  text-align: center;
+}
+
+.gridfooter a {
+  text-decoration: none;
+  color: white;
+}
+
+.gridfooter i {
+  padding: 5px;
+}
+
+@media screen and (max-width: 1034px) {
+  .gridfooter {
+    font-size: 0.8em;
+  }
+
+  .titleshop {
+    padding: 80px 0px;
+  }
+
+  .titleshop .itemshop {
+    margin: 0px 0px;
+  }
+
+  .titleshop .itemshop .articulo p {
+    font-size: 0.5em;
+  }
+
+  .titleshop .itemshop .articulo img {
+    width: 80%;
+  }
+
+  .bloques .bloque1 {
+    font-size: 1em;
+    margin: 0px 50px;
+  }
+
+  .bloques .bloque1 h2 img {
+    width: 20px;
+  }
+
+  #section {
+    background-color: #22242b;
+  }
+
+  #section .contenedor {
+    margin: 0px 0px;
+  }
+
+  #section .itemtext {
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: coral;
+  }
+
+  .contenthero {
+    display: none;
+  }
+
+  .contentheromobile {
+    display: contents;
+  }
+
+  .contentheromobile .heromobile {
+    height: 200px;
+    background-image: url("../img/hero.jpg");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+  }
+
+  .contentheromobile .heromobile .capa {
+    height: 200px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)));
+    background: linear-gradient(rgba(0, 0, 0, 0.5));
+  }
+
+  .herotext {
+    color: #fff;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  header .nav .logo {
+    font-size: 0.8em;
+  }
+
+  header .nav a {
+    font-size: 1.1em;
+  }
+
+  header .nav a:hover {
+    color: coral;
+  }
+
+  header ul {
+    padding-top: 10px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
+
+/*# sourceMappingURL=main.css.map */
